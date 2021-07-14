@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=STIX+Two+Math&family=Tourney:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1050px;
+    display: flex;
+    padding: 100px 207px;
+}
+
+.banner-color{
+    background-color: #2D25A0;
+}
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+}
+.watch-live-btn{
+    font-size: 16px;
+    padding: 10px 24px;
+    color: white;
+    text-decoration: none;
+    background-color: #E02C6D;
+}
+.arrow{
+    color: white;
+    font-size: 16px;
+    padding: 4px 5px;
+}
+.banner-img{
+    width: 556.01px;
+    height: 438px;
+    padding-left: 10px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 27px;
+}
+.player-detail{
+    padding: 15px;
+    width: 300px;
+    height: 500px;
+    text-align: justify;
+    margin-right: 30px;
+    color: #18191F;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-img{
+    width: 300px;
+    height: 256px;
+}
+.player-text{
+    font-size: 16px;
+    color:#6C6C6C;
+}
+
+.footer-align{
+    text-align: center;
+}
+.logo{
+    font-size: 50px;
+    margin: 20px;
+}
+.fa-futbol{
+    color: #2D25A0;
+    font-size: 50px;
+}
+#football-font{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'STIX Two Math', serif;
+    font-family: 'Tourney', cursive;
+    color: #2D25A0;
+}
+.icons{
+    margin: 20px;
+    font-size: 30px;
+}
+.i-color{
+    color:#2D25A0;
+}
+.copy-text-size{
+    font-size: 18px;
+    margin: 20px;
+}
