@@ -116,6 +116,8 @@ h3{
 }
 .bookshow-vdo-bg{
     background-color: #6257ff;
+    justify-content: space-around;
+    align-items: center;
 }
 .form-design{
     background-color:seashell;
@@ -192,4 +194,31 @@ h3{
         padding-left: 75px;
     }
 
+}
+/*----------- TAB SCREEN-----------*/
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 0px 175px 0px;
+    }
+    h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    .watch-live-btn{
+        margin-left: 350px;
+    }
+    .banner-img {
+        width: 600px;
+        height: 500px;
+        padding: 50px 140px;
+    }
+    .players{
+        grid-template-columns: repeat(2,1fr);
+        padding-top: 200px;
+        padding-left: 75px;
+    }
 }
