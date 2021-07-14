@@ -21,6 +21,10 @@ main{
     justify-content: space-between;
 }
 
+/* -------------------------
+    BANNER AND IMG PART
+-------------------------- */
+
 .banner-color{
     background-color: #2D25A0;
 }
@@ -55,6 +59,10 @@ h3{
     padding-left: 10px;
 }
 
+/* -------------------------
+    PLAYERS AND INFO PART
+-------------------------- */
+
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -77,6 +85,33 @@ h3{
     font-size: 16px;
     color:#6C6C6C;
 }
+
+/* -------------------------
+    FORM AND VIDEOS PART
+-------------------------- */
+#ticket-box{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.404);
+    border-radius: 15px;
+    padding: 5px;
+}
+.bookshow-vdo-bg{
+    background-color: salmon;
+}
+.form-design{
+    background-color:seashell;
+    padding: 35px;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+}
+.videos-tab{
+    height: 350px;
+    width: 500px;
+}
+
+/* --------------------
+    FOOTER PART
+--------------------- */
 
 .footer-align{
     text-align: center;
@@ -105,19 +140,4 @@ h3{
 .copy-text-size{
     font-size: 18px;
     margin: 20px;
-}
-
-.bookshow-vdo-bg{
-    background-color: tomato;
-}
-.form-design{
-    background-color:snow;
-    padding: 35px;
-    text-align: center;
-    color: black;
-    border-radius: 15px;
-}
-.videos-tab{
-    height: 350px;
-    width: 500px;
 }
