@@ -57,6 +57,26 @@ h3{
     width: 556.01px;
     height: 438px;
     padding-left: 10px;
+
+}
+/* -------------------------
+    IMAGE TRANSITION PART
+-------------------------- */
+.img-container{
+    width: 556.01px;
+    height: 438px;
+    position: relative;
+}
+.second-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+
+}
+.second-img:hover{
+    opacity: 1;
 }
 
 /* -------------------------
@@ -95,7 +115,7 @@ h3{
     padding: 5px;
 }
 .bookshow-vdo-bg{
-    background-color: salmon;
+    background-color: #6257ff;
 }
 .form-design{
     background-color:seashell;
@@ -121,21 +141,21 @@ h3{
     margin: 20px;
 }
 .fa-futbol{
-    color: #2D25A0;
+    color: #222222;
     font-size: 50px;
 }
 #football-font{
     font-family: 'Poppins', sans-serif;
     font-family: 'STIX Two Math', serif;
     font-family: 'Tourney', cursive;
-    color: #2D25A0;
+    color: #222222;
 }
 .icons{
     margin: 20px;
     font-size: 30px;
 }
 .i-color{
-    color:#2D25A0;
+    color:rgb(122, 122, 122);
 }
 .copy-text-size{
     font-size: 18px;
